@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1></title>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+      <form id="survey-form">
+        <label id="name-label" for="name">Name:</label>
+        <input required type="Name" id="name" placeholder="Enter your name"/>
+      </form>
+      <form id="survey-form">
+        <label id="email-label" for="email">Email:</label>
+        <input required type="Email" id="email" placeholder="Enter your email"/>
+      </form>
+      <form id="survey-form" type="descent" min="10" max="100">
+        <label id="number-label" for="number-label" >Age(optional):</label>
+        <input type="number" 
+                id="number" 
+                placeholder="age"
+                min="10"
+                max="99">
+      </form>
+      <p>Which option best describes your current role?</p>
+      <form id="survey-form">
+<select id="dropdown" name="role" class="form-control" required="">
+            <option disabled="" selected="" value="">Select current role</option>
+            <option value="student">Student</option>
+            <option value="job">Full Time Job</option>
+            <option value="learner">Full Time Learner</option>
+            <option value="preferNo">Prefer not to say</option>
+            <option value="other">Other</option>
+          </select>
+<option disabled="" selected="" value="">Select current role</option>
+<option value="student">Student</option>
+<option value="job">Full Time Job</option>
+<option value="learner">Full Time Learner</option>
+<option value="preferNo">Prefer not to say</option>
+<option value="other">Other</option>
+</form>
+
+<p>Would you recommend freeCodeCamp to a friend?</p>
+
+  <form id="survey-form">
+    <label><input checked button type="radio" name="radio-group" value="selecionar" name="radio-group" class="input-radio"/> Definitely
+    </label>
+
+    <label><input button type="radio" value="radio-group" name="radio-group" class="input-radio"/> Maybe
+    </label>
+
+    <label><input button type="radio" value="radio-group" name="radio-group" class="input-radio"/> Not sure
+    </label>
+  </form>
+    <p>What would you like to see improved? (Check all that apply)</p>
+    <form id="survey-form">
+    <input button type="checkbox" name="definitely" value="selecionar" name="front-end"> Front-end Projects
+    <input button type="checkbox" value="selecionar" name="back-end"> Back-end Projects
+    <input button type="checkbox" value="selecionar" name="Data-visualization"> Data Visualization
+    <input button type="checkbox" value="selecionar" name="Challenges"> Challenges
+    <input button type="checkbox" value="selecionar" name="Open-source"> Open Source Community
+    <input button type="checkbox" value="selecionar" name="Gitter"> Gitter help rooms
+    <input button type="checkbox" value="selecionar" name="videos"> Videos
+    <input button type="checkbox" value="selecionar" name="City-meetups"> City Meetups
+  </form>
+<p><h3>Any comments or suggestions?</h3></p>
+  <form id="survey-form">
+    <textarea
+      id="textarea"
+      name="textarea"
+      rows="5"
+      cols="40"
+      placeholder="Suggestions...."
+    ></textarea>
+  </form>
+  <form id="survey-form">
+  <button type="Submit" id="submit">Submit
+    </form>
+  </body>
+</html>
